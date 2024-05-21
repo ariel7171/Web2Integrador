@@ -199,3 +199,7 @@ input::-webkit-inner-spin-button {
 .btnIncrementar:hover {
     background-color: #ddd;
 }
+
+input:disabled {
+    background-color: white;
+  }

@@ -160,7 +160,7 @@ app.post('/carrito/provisorio', async (req, res) => {
             if (!data) {
 
                 const valoresIniciales = {
-                    id: 0,
+                    id: 1,
                     cantidadTotal: 0,
                     precioTotal: 0,
                     productos: []
@@ -325,7 +325,7 @@ app.post('/carrito/comprar', async (req, res) => {
             await fs.promises.writeFile('data/compras.json', JSON.stringify(compras, null, 2));
 
             const carritoProvisorioVacio = {
-                id: 0,
+                id: 1,
                 cantidadTotal: 0,
                 precioTotal: 0,
                 productos: []
