@@ -230,5 +230,47 @@
         "precio": 109
       }
     ]
+  },
+  {
+    "id": 11,
+    "cantidadTotal": 27,
+    "precioTotal": 3628.53,
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 8,
+        "precio": 615.76
+      },
+      {
+        "id": 7,
+        "cantidad": 4,
+        "precio": 39.96
+      },
+      {
+        "id": 2,
+        "cantidad": 6,
+        "precio": 107.04
+      },
+      {
+        "id": 6,
+        "cantidad": 4,
+        "precio": 672
+      },
+      {
+        "id": 12,
+        "cantidad": 2,
+        "precio": 136.8
+      },
+      {
+        "id": 15,
+        "cantidad": 1,
+        "precio": 56.99
+      },
+      {
+        "id": 14,
+        "cantidad": 2,
+        "precio": 1999.98
+      }
+    ]
   }
 ]
