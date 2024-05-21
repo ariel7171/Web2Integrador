@@ -1,0 +1,234 @@
+[
+  {
+    "id": 0,
+    "cantidadTotal": 6,
+    "precioTotal": 2380.36,
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1,
+        "precio": 76.97
+      },
+      {
+        "id": 3,
+        "cantidad": 1,
+        "precio": 50.39
+      },
+      {
+        "id": 5,
+        "cantidad": 3,
+        "precio": 2085
+      },
+      {
+        "id": 6,
+        "cantidad": 1,
+        "precio": 168
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "cantidadTotal": 2,
+    "precioTotal": 127.36,
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1,
+        "precio": 76.97
+      },
+      {
+        "id": 3,
+        "cantidad": 1,
+        "precio": 50.39
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "cantidadTotal": 12,
+    "precioTotal": 2775.24,
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 4,
+        "precio": 307.88
+      },
+      {
+        "id": 2,
+        "cantidad": 4,
+        "precio": 71.36
+      },
+      {
+        "id": 13,
+        "cantidad": 4,
+        "precio": 2396
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "cantidadTotal": 6,
+    "precioTotal": 143.62,
+    "productos": [
+      {
+        "id": 2,
+        "cantidad": 2,
+        "precio": 35.68
+      },
+      {
+        "id": 1,
+        "cantidad": 1,
+        "precio": 76.97
+      },
+      {
+        "id": 7,
+        "cantidad": 2,
+        "precio": 19.98
+      },
+      {
+        "id": 8,
+        "cantidad": 1,
+        "precio": 10.99
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "cantidadTotal": 3,
+    "precioTotal": 145.2,
+    "productos": [
+      {
+        "id": 2,
+        "cantidad": 1,
+        "precio": 17.84
+      },
+      {
+        "id": 1,
+        "cantidad": 1,
+        "precio": 76.97
+      },
+      {
+        "id": 3,
+        "cantidad": 1,
+        "precio": 50.39
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "cantidadTotal": 2,
+    "precioTotal": 178.99,
+    "productos": [
+      {
+        "id": 6,
+        "cantidad": 1,
+        "precio": 168
+      },
+      {
+        "id": 8,
+        "cantidad": 1,
+        "precio": 10.99
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "cantidadTotal": 2,
+    "precioTotal": 94.81,
+    "productos": [
+      {
+        "id": 1,
+        "cantidad": 1,
+        "precio": 76.97
+      },
+      {
+        "id": 2,
+        "cantidad": 1,
+        "precio": 17.84
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "cantidadTotal": 2,
+    "precioTotal": 863,
+    "productos": [
+      {
+        "id": 5,
+        "cantidad": 1,
+        "precio": 695
+      },
+      {
+        "id": 6,
+        "cantidad": 1,
+        "precio": 168
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "cantidadTotal": 7,
+    "precioTotal": 2440.96,
+    "productos": [
+      {
+        "id": 10,
+        "cantidad": 3,
+        "precio": 327
+      },
+      {
+        "id": 14,
+        "cantidad": 2,
+        "precio": 1999.98
+      },
+      {
+        "id": 15,
+        "cantidad": 2,
+        "precio": 113.98
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "cantidadTotal": 3,
+    "precioTotal": 218.98,
+    "productos": [
+      {
+        "id": 8,
+        "cantidad": 1,
+        "precio": 10.99
+      },
+      {
+        "id": 6,
+        "cantidad": 1,
+        "precio": 168
+      },
+      {
+        "id": 17,
+        "cantidad": 1,
+        "precio": 39.99
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "cantidadTotal": 5,
+    "precioTotal": 271.52,
+    "productos": [
+      {
+        "id": 2,
+        "cantidad": 3,
+        "precio": 53.52
+      },
+      {
+        "id": 10,
+        "cantidad": 1,
+        "precio": 109
+      },
+      {
+        "id": 11,
+        "cantidad": 1,
+        "precio": 109
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+/*NAV*/
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

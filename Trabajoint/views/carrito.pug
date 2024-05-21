@@ -1,0 +1,48 @@
+doctype html
+html
+    head
+        title Carrito
+        link(rel="stylesheet" href="/css/carrito.css")
+        link(rel="stylesheet" href="/css/nav.css")
+        link(rel="stylesheet" href="/css/footer.css")
+        script(src="/js/funciones.js")
+        script(defer src="/js/carrito.js")
+    body
+        include nav.pug
+        main
+            div.container
+                - let divcompra = false
+                each producto in productos
+                    if producto.agregado    
+                        div.productoCarrito(id=producto.id)
+                            div.divimg
+                                img.img(src=producto.image)
+                            div.infoProducto
+                                div
+                                    span.titulo(class="texto-recortado")=producto.title
+                                div.info2
+                                    div.d1
+                                        div.d2
+                                            div.e1
+                                                button.btnEliminar Eliminar 
+                                            div.e2
+                                                button.btnDecrementar -
+                                                input.cantidad(type="number" value=producto.agregado.cantidad min="1" step="1")
+                                                button.btnIncrementar +
+                                        div.divPrecio
+                                            span.spanprecio $
+                                            span.precio=producto.agregado.precio
+                        if !divcompra
+                            div.divcompra
+                                div.tituloCompra
+                                    span.tituloDetalle Detalle de Compra
+                                div.infoCantidad
+                                    span.textoCant Cantidad total: 
+                                    span.cantidadTotal=totales.cantidadTotal
+                                div.infoPrecioTotal 
+                                    span.textoPrecio Precio total: $
+                                    span.precioTotal=totales.precioTotal
+                                div.divbtnComprar 
+                                    button.btnComprar Comprar    
+                            - divcompra = true                                                                                                                                                          
+        include footer.pug

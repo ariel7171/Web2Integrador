@@ -1,0 +1,201 @@
+/*
+div {
+    border: 1px solid #000;
+}
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 500px;
+}
+
+
+
+.productoCarrito {
+    grid-area: 1;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.divimg {
+    display: flex;
+    justify-content: center;
+}
+
+.infoProducto {
+    width: 100%;
+    margin-left: 5%;
+}
+
+.texto-recortado {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 3em;
+    line-height: 1.4em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+.cantidad {
+    color: #333;
+    width: 20%;
+    text-align: center;
+}
+
+.d1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.d2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.e1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.divPrecio {
+    display: flex;
+    width: 30%;
+    justify-content: right;
+}
+
+.e2 {
+    display: flex;
+    width: 50%;
+    justify-content: right;
+}
+
+
+.btnGuardar {
+    margin-left: 50%;
+}
+
+.titulo {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.spanprecio,
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btnEliminar {
+    background-color: #ffffff;
+    color: #a94442;
+    border: none;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.divcompra {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    top: 11%;
+    right: 9%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.tituloCompra {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.textoCant,
+.textoPrecio {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #555;
+}
+
+.precioTotal {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.btnComprar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btnComprar:hover {
+    background-color: #0056b3;
+}
+
+.e2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.btnDecrementar,
+.btnIncrementar {
+    background-color: #f2f2f2;
+    color: #333;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.btnDecrementar:hover,
+.btnIncrementar:hover {
+    background-color: #ddd;
+}

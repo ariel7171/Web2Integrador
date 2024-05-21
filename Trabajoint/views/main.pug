@@ -1,0 +1,45 @@
+head
+  title Fake Store
+  link(rel="stylesheet" href="/css/estilos.css")
+  link(rel="stylesheet" href="/css/nav.css")
+  link(rel="stylesheet" href="/css/footer.css")
+  script(src="/js/funciones.js")
+  script(defer src="/js/main.js")
+
+body
+  include nav.pug
+  h1 Fake Store
+  div.container
+    each producto in productos
+      div(class='product infoid-'+producto.id)
+        div.image-container
+          img.img(src=producto.image, alt=producto.title)
+          if producto.oferta 
+            span.oferta OFERTA!
+          else
+            span.sinOferta  
+        div.texto-recortado
+          span.titulo #{producto.title}
+        div
+          div
+            span.texto-recortado(class="descripcion") #{producto.description}
+          div.valCal
+            span Valoración: #{producto.rating.rate}
+            br
+            span Calificaciones: #{producto.rating.count}
+          div
+            if producto.oferta
+              span $ 
+              span.precio #{producto.oferta.precioDesc}
+              span.desc #{producto.oferta.descuento} %
+              span.precioAnt $ #{producto.price}
+            else  
+              span $ 
+              span.precio #{producto.price}
+              span.desc
+              span.precioAnt
+          if producto.agregado    
+            button.btn-agregar(id=producto.id class="agregado") Agregado
+          else
+            button.btn-agregar(id=producto.id) Agregar al carrito
+  include footer.pug
