@@ -11,7 +11,7 @@ app.set('view engine', 'pug');
 
 const obtenerProductos = async () => {
     try {
-        /*
+        
         const response = await fetch('https://fakestoreapi.com/products');
         
         if (!response.ok) {
@@ -19,11 +19,11 @@ const obtenerProductos = async () => {
         }
 
         let productos = await response.json();
-        */
-
+        
+        /*
         const data = await fs.promises.readFile('data/data.json', 'utf8');
         const productos = JSON.parse(data);
-
+        */
         for (let producto of productos) {
 
             let traduccion;
